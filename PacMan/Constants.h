@@ -1,0 +1,15 @@
+#pragma once
+
+enum Direction {UP, LEFT, DOWN, RIGHT};
+
+#define SCREEN_WIDTH 800
+#define SCREEN_HEIGHT 620
+#define BLOCK_SIZE 20
+#define BOARD_WIDTH 28
+#define BOARD_HEIGHT 31
+#define OFFSET 2
+#define START_TIMER 50
+#define GHOST_MOVE_SPEED 50
+#define SCATTER_TIME 7000
+#define CHASE_TIME 20000
+#define FRIGNTEN_TIME 5000
